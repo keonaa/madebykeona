@@ -2,7 +2,7 @@
 import './globals.css'; 
 
 export const metadata = {
-  title: "Keona's Portfolio",
+  title: "madebykeona",
   description: "Under Construction - Keona's portfolio is coming soon!",
 };
 
@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body className="Epilogue-Regular">
         <nav className="p-4 bg-white shadow-md border-b border-gray-800 flex justify-between items-end">
