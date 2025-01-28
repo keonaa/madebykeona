@@ -12,8 +12,11 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="Epilogue-SemiBold">
-        <nav className="p-4 bg-white shadow-md border-b border-gray-800">
+      <body className="Epilogue-Regular">
+        <nav className="p-4 bg-white shadow-md border-b border-gray-800 flex justify-between items-end">
+        <div className="flex items-center">
+            <img src="/Group.svg" alt="Keona's Logo" className="h-8 w-auto" />
+          </div>
           <ul className="flex justify-end space-x-8">
             <li><a href="/projects" className="text-gray-800 hover:text-purple-600">Projects</a></li>
             <li><a href="/about" className="text-gray-800 hover:text-purple-600">About</a></li>
